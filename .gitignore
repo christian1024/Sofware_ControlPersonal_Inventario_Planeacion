@@ -1,0 +1,21 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+/.vscode
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env
+.phpunit.result.cache
+/storage/logs/laravel.log
+\storage\logs\laravel.log
+<<<<<<< HEAD
+.git
+=======
+.git
+>>>>>>> 4f7f61bcc7a71c5a3e04fce61a82e8aed7dc73fe

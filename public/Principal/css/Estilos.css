@@ -1,0 +1,68 @@
+﻿
+.login {
+    background-color: rgba(247, 246, 246, 0);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 0px 3px rgba(251, 251, 251, 0.85);
+}
+
+.logi-inter {
+    background-color: rgba(247, 246, 246, 0);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 0px 3px rgba(251, 251, 251, 0.85);
+
+}
+
+.login-input {
+    border-radius: 30px;
+    border: 1px solid #39c;
+    padding: 5px;
+
+}
+
+
+.body-img {
+    background-image: url('../img/fondo2.jpg');
+    background-position: center center; /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+    background-repeat: no-repeat; /* Para que la imagen de fondo no se repita */
+    background-attachment: fixed; /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-size: cover; /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-color: aliceblue; /* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+}
+h1 {
+    color:green;
+}
+.xyz {
+    background-size: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.btn-circle.btn-sm {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    font-size: 13px;
+    text-align: center;
+}
+.btn-circle.btn-md {
+    width: 50px;
+    height: 50px;
+    padding: 7px 10px;
+    border-radius: 25px;
+    font-size: 10px;
+    text-align: center;
+}
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+

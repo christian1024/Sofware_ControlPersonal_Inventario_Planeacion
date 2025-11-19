@@ -1,0 +1,34 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateLecturaEntradaCFSTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('lecturaEntradaCuartoFrios', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('CodigoBarras',25);
+            $table->integer('Idpatinador');
+            $table->integer('Flag_Activo');
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('lecturaEntradaCuartoFrios');
+    }
+}

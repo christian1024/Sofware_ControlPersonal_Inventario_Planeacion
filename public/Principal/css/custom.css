@@ -1,0 +1,152 @@
+
+/* Menu */
+
+.c-hamburger {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 64px;
+    height: 30px;
+    font-size: 0;
+    text-indent: -9999px;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    float: right;
+}
+
+.c-hamburger:focus {
+    outline: none;
+}
+
+/**/
+
+.c-hamburger span {
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    right: 14px;
+    height: 4px;
+    background: #000;
+}
+
+.c-hamburger span::before,
+.c-hamburger span::after {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+    content: "";
+}
+
+.c-hamburger span::before {
+    top: -8px;
+}
+
+.c-hamburger span::after {
+    bottom: -8px;
+}
+
+/**/
+
+
+.c-hamburger--htx {
+    background-color: #fff;
+}
+.c-hamburger--htx span {
+    transition: background 0s 0.3s;
+}
+.c-hamburger--htx span::before,
+.c-hamburger--htx span::after {
+    transition-duration: 0.3s, 0.3s;
+    transition-delay: 0.3s, 0s;
+}
+.c-hamburger--htx span::before {
+    transition-property: top, transform;
+}
+.c-hamburger--htx span::after {
+    transition-property: bottom, transform;
+}
+.c-hamburger--htx.is-active {
+    background-color: #fff;
+}
+.c-hamburger--htx.is-active span {
+    background: none;
+}
+.c-hamburger--htx.is-active span::before {
+    top: 0;
+    transform: rotate(45deg);
+}
+.c-hamburger--htx.is-active span::after {
+    bottom: 0;
+    transform: rotate(-45deg);
+}
+.c-hamburger--htx.is-active span::before,
+.c-hamburger--htx.is-active span::after {
+    transition-delay: 0s, 0.3s;
+}
+
+
+.pad {padding: 4px;}
+.search-category {font-weight: bold; color: #f2c541;}
+.search-category-red {font-weight: bold; color: #d14825;}
+
+.shadow {
+    -webkit-box-shadow: 5px 5px 5px #666;
+    -moz-box-shadow:    5px 5px 5px #666;
+    box-shadow:         5px 5px 5px #666;
+}
+
+.required {
+    color: #ff0000;
+}
+
+/* Progress Indicator*/
+/*.ProgressIndicator { position: absolute; top: 0px; left: 0px; width: 100%; height: 0px; z-index: 999; background-image: url(../images/bkgwhite50.png); background-repeat: repeat; }*/
+.ImageCenter { margin: auto; display: block; }
+#dot { top: 0px; left: 0px; position: absolute; }
+/*#circle { position: absolute;background: url("../images/swirl.png") no-repeat 0 0;  z-index:1000}*/
+
+.search-btn, input[type="text"] {
+    -webkit-border-radius:0;
+    border-radius:0;
+    -webkit-appearance: none;
+}
+
+
+.z-menu-link:hover { color: #fff;}
+
+sup { font-size: 0.6em;
+    font-family: Arial, sans-serif;
+}
+
+.blog-date a {color: #fff;}
+.infoTitle {  color: #d14825;
+    font-weight: 700;
+}
+li.drawer {list-style:none; }
+li.drawercontent{list-style:none; }
+ul.drawers{padding-left:0px}
+ul.drawerblock{padding-left:0px}
+
+/* plant info drawers classes */
+/*
+h2.drawer-handle {padding-top:12px;padding-right:6px; padding-left:6px;padding-bottom:12px;background-image: url(../images/icon_plus.png);background-position: 97%; background-repeat: no-repeat; cursor: pointer; font-size: 20px; line-height: 20px;   padding-left: 10px; color: #ffffff; }
+h2.drawer-handle.open {padding-top:12px;padding-right:6px; padding-left:6px;padding-bottom:12px;  background-image: url(../images/icon_minus.png);background-position: 97%;  background-repeat: no-repeat; font-size: 20px; line-height: 20px;   color: #ffffff; background-color: #d14825;  }
+h2.download {padding-top:12px;padding-right:6px; padding-left:6px;padding-bottom:12px;background-image: url(../images/icon_download.png);background-position: 97%; background-repeat: no-repeat; cursor: pointer; font-size: 20px; line-height: 20px;   padding-left: 10px; color: #ffffff; }
+*/
+
+/*padding-top:12px;padding-right:6px; padding-left:6px;padding-bottom:12px; */
+
+
+.radio-toolbar label {
+    display: inline-block;padding-left:10px;margin-top:5px
+
+}

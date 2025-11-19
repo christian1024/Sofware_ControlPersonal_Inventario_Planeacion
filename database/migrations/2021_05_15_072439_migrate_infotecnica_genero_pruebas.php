@@ -1,0 +1,36 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class MigrateInfotecnicaGeneroPruebas extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('LabInformacionTecnicaGenerosPruebas', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->integer('IdGenero');
+            $table->integer('Index');
+            $table->integer('AgroRhodo');
+            $table->integer('Screen');
+            $table->integer('Flag_Activo');
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('LabInformacionTecnicaGenerosPruebas');
+    }
+}
