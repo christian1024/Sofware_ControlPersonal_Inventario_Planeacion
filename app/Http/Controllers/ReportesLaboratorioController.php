@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Exports\ReporteInventario;
 use App\Exports\ReporteInventarioTotal;
-use App\Model\LabLecturaEntrada;
-use App\Model\Variedades;
+use App\Models\LabLecturaEntrada;
+use App\Models\Variedades;
 use Carbon\Traits\Date;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;

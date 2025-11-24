@@ -2,7 +2,7 @@
 
 namespace App\Imports;
 
-use App\Model\CargueInventario;
+use App\Models\CargueInventario;
 use DateTime;
 use Illuminate\Http\Resources\Json\PaginatedResourceResponse;
 use Maatwebsite\Excel\Concerns\Importable;
@@ -19,7 +19,7 @@ class cargueInventarioImport implements ToModel, WithHeadingRow
     /**
      * @param array $row
      *
-     * @return \App\Model\CargueInventario
+     * @return \App\Models\CargueInventario
      */
     public function model(array $row)
     {

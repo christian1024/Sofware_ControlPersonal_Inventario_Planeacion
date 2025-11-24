@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\CargueInventario;
-use App\Model\LabCuartos;
-use App\Model\LabEstante;
-use App\Model\LabNivel;
-use App\Model\TipoFasesLab;
+use App\Models\CargueInventario;
+use App\Models\LabCuartos;
+use App\Models\LabEstante;
+use App\Models\LabNivel;
+use App\Models\TipoFasesLab;
 use PDF;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;

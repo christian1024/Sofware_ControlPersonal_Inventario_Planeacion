@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 
 use App\Imports\ImportEtiquetasProduccion;
-use App\Model\Especies;
-use App\Model\Generos;
-use App\Model\LabInfotecicaTiposFrascos;
-use App\Model\LabInfotecnicaVariedades;
-use App\Model\ModelInfotecnicaGeneroPruebas;
-use App\Model\TipoFasesLab;
-use App\Model\Variedades;
+use App\Models\Especies;
+use App\Models\Generos;
+use App\Models\LabInfotecicaTiposFrascos;
+use App\Models\LabInfotecnicaVariedades;
+use App\Models\ModelInfotecnicaGeneroPruebas;
+use App\Models\TipoFasesLab;
+use App\Models\Variedades;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Imports\ImportInformacionTecnicaVariedadesURC;

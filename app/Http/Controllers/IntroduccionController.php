@@ -2,15 +2,15 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\ClientesLab;
-use App\Model\Empleados;
-use App\Model\Generos;
-use App\Model\GetEtiquetasLabInventario;
-use App\Model\LabIngresoIntroduccion;
-use App\Model\ModelAnoSemana;
-use App\Model\ModelIntroduccionesFuturas;
-use App\Model\TipoFrascosLab;
-use App\Model\Variedades;
+use App\Models\ClientesLab;
+use App\Models\Empleados;
+use App\Models\Generos;
+use App\Models\GetEtiquetasLabInventario;
+use App\Models\LabIngresoIntroduccion;
+use App\Models\ModelAnoSemana;
+use App\Models\ModelIntroduccionesFuturas;
+use App\Models\TipoFrascosLab;
+use App\Models\Variedades;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;

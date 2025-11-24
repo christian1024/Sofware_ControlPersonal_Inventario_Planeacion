@@ -3,10 +3,10 @@
 namespace App\Imports;
 
 
-use App\Model\ClientesLab;
-use App\Model\ImportProgramasSemanales;
-use App\Model\TipoFasesLab;
-use App\Model\Variedades;
+use App\Models\ClientesLab;
+use App\Models\ImportProgramasSemanales;
+use App\Models\TipoFasesLab;
+use App\Models\Variedades;
 use Maatwebsite\Excel\Concerns\{Importable, ToModel, WithHeadingRow};
 
 class ImportarProgramasImport implements ToModel, WithHeadingRow

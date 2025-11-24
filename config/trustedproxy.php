@@ -1,5 +1,5 @@
 <?php
-
+use Symfony\Component\HttpFoundation\Request;
 return [
 
     /*
@@ -14,8 +14,7 @@ return [
      * a requirement when you cannot know the address
      * of your proxy (e.g. if using ELB or similar).
      *
-     */
-    'proxies' => null, // [<ip addresses>,], '*', '<ip addresses>,'
+     */    
 
     /*
      * To trust one or more specific proxies that connect
@@ -45,6 +44,9 @@ return [
      * 
      * @link https://symfony.com/doc/current/deployment/proxies.html
      */
-    'headers' => Illuminate\Http\Request::HEADER_X_FORWARDED_ALL,
+    'proxies' => '*',
+
+    'headers' => Request::HEADER_X_FORWARDED_FOR | Request::HEADER_X_FORWARDED_HOST | Request::HEADER_X_FORWARDED_PORT | Request::HEADER_X_FORWARDED_PROTO | Request::HEADER_X_FORWARDED_AWS_ELB,
+
 
 ];

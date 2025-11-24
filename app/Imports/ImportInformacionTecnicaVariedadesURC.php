@@ -2,8 +2,8 @@
 
 namespace App\Imports;
 
-use App\Model\CargueEtiquetasPro;
-use App\Model\ProdInformacionTecnicaVariedades;
+use App\Models\CargueEtiquetasPro;
+use App\Models\ProdInformacionTecnicaVariedades;
 use Maatwebsite\Excel\Concerns\Importable;
 use Maatwebsite\Excel\Concerns\ToModel;
 use Maatwebsite\Excel\Concerns\WithHeadingRow;
@@ -15,7 +15,7 @@ class ImportInformacionTecnicaVariedadesURC implements ToModel, WithHeadingRow
     /**
      * @param array $row
      *
-     * @return \App\Model\ProdInformacionTecnicaVariedades
+     * @return \App\Models\ProdInformacionTecnicaVariedades
      */
 
     public function model(array $row)

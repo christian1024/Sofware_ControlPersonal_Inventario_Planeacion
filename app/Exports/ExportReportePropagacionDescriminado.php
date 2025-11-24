@@ -3,7 +3,7 @@
 namespace App\Exports;
 
 use App\Http\Controllers\PropagacionController;
-use App\Model\GetEtiquetasRenewalProduncionModel;
+use App\Models\GetEtiquetasRenewalProduncionModel;
 use Maatwebsite\Excel\Concerns\Exportable;
 use Maatwebsite\Excel\Concerns\FromCollection;
 use Maatwebsite\Excel\Concerns\WithHeadings;

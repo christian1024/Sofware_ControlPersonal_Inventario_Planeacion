@@ -16,6 +16,11 @@ Route::get('login', function () {
 Route::get('/register', function () {
     return view('welcome');
 });
+Route::get('/principal', function () {
+    return view('layouts.principal');
+})->name('principal')->middleware('auth');
+
+
 
 Auth::routes();
 
@@ -476,3 +481,7 @@ Route::get('/ch', function () {
     }
     echo $SemanaFin;*/
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

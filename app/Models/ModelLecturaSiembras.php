@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class ModelLecturaSiembras extends Model
+{
+    protected $dateFormat = 'Y-d-m H:i:s.v';
+    protected $table = "LecturaSiembra";
+    protected $fillable = [
+        'PlotID',
+        'PlantasSembradas',
+        'ubicacion',
+        'Raiz',
+        'Cono',
+        'Pinch',
+        'Faltante',
+        'Otro',
+        'CausalOtros',
+        'CodigoConfirmacion',
+        'Observacion'
+    ];
+}

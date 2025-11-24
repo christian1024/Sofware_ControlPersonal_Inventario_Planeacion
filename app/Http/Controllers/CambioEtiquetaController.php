@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\ClientesLab;
-use App\Model\GetEtiquetasLabInventario;
-use App\Model\LabCuartos;
-use App\Model\LabEtiquetasMigradas;
-use App\Model\LabLecturaEntrada;
+use App\Models\ClientesLab;
+use App\Models\GetEtiquetasLabInventario;
+use App\Models\LabCuartos;
+use App\Models\LabEtiquetasMigradas;
+use App\Models\LabLecturaEntrada;
 use EtiquetasMigradas;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;

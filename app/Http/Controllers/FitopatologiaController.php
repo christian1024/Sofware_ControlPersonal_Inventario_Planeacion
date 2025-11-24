@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\ModelResultadoMuestrasFitopatologia;
-use App\Model\ModelTipoVirusFitopatogenos;
+use App\Models\ModelResultadoMuestrasFitopatologia;
+use App\Models\ModelTipoVirusFitopatogenos;
 use Illuminate\Http\Request;
 use Monolog\Handler\IFTTTHandler;
 use PHPUnit\Framework\Constraint\Count;

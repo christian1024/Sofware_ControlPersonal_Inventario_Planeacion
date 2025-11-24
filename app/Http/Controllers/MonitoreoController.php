@@ -2,12 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\CargueEtiquetasPro;
-use App\Model\Empleados;
-use App\Model\GetEtiquetasRenewalProduncionModel;
-use App\Model\ModelEntradaCuartoMonitore;
-use App\Model\ModelEntradaSalidaPersonalMonitoreo;
-use App\Model\ModelLecturaControlMonitoreo;
+use App\Models\CargueEtiquetasPro;
+use App\Models\Empleados;
+use App\Models\GetEtiquetasRenewalProduncionModel;
+use App\Models\ModelEntradaCuartoMonitore;
+use App\Models\ModelEntradaSalidaPersonalMonitoreo;
+use App\Models\ModelLecturaControlMonitoreo;
 use Carbon\Carbon;
 use Carbon\Traits\Creator;
 use Illuminate\Http\Request;

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\tickestModel;
+use App\Models\tickestModel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Carbon;

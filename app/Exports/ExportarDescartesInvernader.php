@@ -2,7 +2,7 @@
 
 namespace App\Exports;
 
-use App\Model\LecturaDescarteInvernaderoModel;
+use App\Models\LecturaDescarteInvernaderoModel;
 use Illuminate\Support\Facades\DB;
 use Maatwebsite\Excel\Concerns\Exportable;
 use Maatwebsite\Excel\Concerns\FromCollection;

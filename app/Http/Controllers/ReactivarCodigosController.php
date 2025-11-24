@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\LabLecturaSalida;
-use App\Model\Variedades;
+use App\Models\LabLecturaSalida;
+use App\Models\Variedades;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;

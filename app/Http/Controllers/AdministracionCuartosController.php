@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\LabCuartos;
-use App\Model\LabEstante;
-use App\Model\LabNivel;
+use App\Models\LabCuartos;
+use App\Models\LabEstante;
+use App\Models\LabNivel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 

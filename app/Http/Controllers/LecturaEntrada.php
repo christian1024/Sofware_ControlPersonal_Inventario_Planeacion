@@ -2,16 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\Empleados;
-use App\Model\FichaTecnicaEmpleados;
-use App\Model\GetEtiquetasLabInventario;
-use App\Model\LabCuartos;
-use App\Model\LabEstante;
-use App\Model\LabLecturaEntrada;
-use App\Model\LabLecturaSalida;
-use App\Model\LabNivel;
-use App\Model\ModelAnoSemana;
-use App\Model\ModelResultadoMuestrasFitopatologia;
+use App\Models\Empleados;
+use App\Models\FichaTecnicaEmpleados;
+use App\Models\GetEtiquetasLabInventario;
+use App\Models\LabCuartos;
+use App\Models\LabEstante;
+use App\Models\LabLecturaEntrada;
+use App\Models\LabLecturaSalida;
+use App\Models\LabNivel;
+use App\Models\ModelAnoSemana;
+use App\Models\ModelResultadoMuestrasFitopatologia;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;

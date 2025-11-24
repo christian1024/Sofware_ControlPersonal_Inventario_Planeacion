@@ -5,13 +5,13 @@ namespace App;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Caffeinated\Shinobi\Concerns\HasRolesAndPermissions;
+//use Caffeinated\Shinobi\Concerns\HasRolesAndPermissions;
 //use Spatie\Permission\Traits\HasRoles;
 
 
 class User extends Authenticatable
 {
-    use Notifiable, HasRolesAndPermissions;
+    use Notifiable;//, HasRolesAndPermissions;
     //use Notifiable,HasRoles;
 
     /**
@@ -20,8 +20,8 @@ class User extends Authenticatable
      *
      * @var array
      */
-    protected $dateFormat = 'd-m-Y H:i:s';
-
+    //protected $dateFormat = 'd-m-Y H:i:s';
+    protected $dateFormat = 'Y-m-d H:i:s';
     protected $fillable = [
         'id_Empleado', 'username', 'email', 'password',
     ];

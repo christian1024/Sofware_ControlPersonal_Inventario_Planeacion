@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\arqueoInventarioModel;
-use App\Model\Empleados;
-use App\Model\LabCuartos;
-use App\Model\LabLecturaEntrada;
-use App\Model\LabLecturaSalida;
+use App\Models\arqueoInventarioModel;
+use App\Models\Empleados;
+use App\Models\LabCuartos;
+use App\Models\LabLecturaEntrada;
+use App\Models\LabLecturaSalida;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 

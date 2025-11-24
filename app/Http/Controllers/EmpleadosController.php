@@ -2,22 +2,22 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\Area;
-use App\Model\ARl;
-use App\Model\Bloque;
-use App\Model\Cargos;
-use App\Model\Empleados;
-use App\Model\estadoCivil;
-use App\Model\FichaTecnicaEmpleados;
-use App\Model\MedioTransporte;
-use App\Model\RRHH_CajasCompensacion;
-use App\Model\RRHH_FondosPension;
-use App\Model\rrhhCentrocosto;
-use App\Model\SubArea;
-use App\Model\Tipo_contrato;
-use App\Model\TipoDocumento;
-use App\Model\Departamentos;
-use App\Model\Ciudades;
+use App\Models\Area;
+use App\Models\ARl;
+use App\Models\Bloque;
+use App\Models\Cargos;
+use App\Models\Empleados;
+use App\Models\estadoCivil;
+use App\Models\FichaTecnicaEmpleados;
+use App\Models\MedioTransporte;
+use App\Models\RRHH_CajasCompensacion;
+use App\Models\RRHH_FondosPension;
+use App\Models\rrhhCentrocosto;
+use App\Models\SubArea;
+use App\Models\Tipo_contrato;
+use App\Models\TipoDocumento;
+use App\Models\Departamentos;
+use App\Models\Ciudades;
 use Carbon\Carbon;
 use function GuzzleHttp\Promise\all;
 use Illuminate\Http\Request;

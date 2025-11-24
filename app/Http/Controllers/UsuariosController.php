@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Caffeinated\Shinobi\Models\Permission;
 use Illuminate\Http\Request;
-use App\Model\Empleados;
+use App\Models\Empleados;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
 use App\User;

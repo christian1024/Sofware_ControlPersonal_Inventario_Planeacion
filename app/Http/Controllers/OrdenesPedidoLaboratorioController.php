@@ -3,15 +3,15 @@
 namespace App\Http\Controllers;
 
 use App\Exports\ExportPlaneacionProgramas;
-use App\Model\CausalesCancelacionPlaneacion;
-use App\Model\ClientesLab;
-use App\Model\GetEtiquetasLabInventario;
-use App\Model\labCabezaPedidos;
-use App\Model\labdetallesPedidos;
-use App\Model\LabInfotecnicaVariedades;
-use App\Model\ModelAnoSemana;
-use App\Model\PlaneacionSemanalPorPedido;
-use App\Model\Variedades;
+use App\Models\CausalesCancelacionPlaneacion;
+use App\Models\ClientesLab;
+use App\Models\GetEtiquetasLabInventario;
+use App\Models\labCabezaPedidos;
+use App\Models\labdetallesPedidos;
+use App\Models\LabInfotecnicaVariedades;
+use App\Models\ModelAnoSemana;
+use App\Models\PlaneacionSemanalPorPedido;
+use App\Models\Variedades;
 use Carbon\Carbon;
 use FontLib\Table\Type\post;
 use Illuminate\Http\Request;

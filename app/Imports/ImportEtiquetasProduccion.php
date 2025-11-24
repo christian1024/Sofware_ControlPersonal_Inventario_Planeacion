@@ -2,11 +2,11 @@
 
 namespace App\Imports;
 
-use App\Model\Variedades;
+use App\Models\Variedades;
 use Maatwebsite\Excel\Concerns\Importable;
 use Maatwebsite\Excel\Concerns\ToModel;
 use Maatwebsite\Excel\Concerns\WithHeadingRow;
-use App\Model\CargueEtiquetasPro;
+use App\Models\CargueEtiquetasPro;
 
 class ImportEtiquetasProduccion implements ToModel, WithHeadingRow
 {
@@ -15,7 +15,7 @@ class ImportEtiquetasProduccion implements ToModel, WithHeadingRow
     /**
      * @param array $row
      *
-     * @return \App\Model\CargueEtiquetasPro
+     * @return \App\Models\CargueEtiquetasPro
      */
 
     public function model(array $row)

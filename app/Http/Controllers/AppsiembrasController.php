@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\Cargos;
+use App\Models\Cargos;
 use App\User;
 use Illuminate\Http\Request;
 

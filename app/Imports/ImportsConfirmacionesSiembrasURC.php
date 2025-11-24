@@ -2,7 +2,7 @@
 
 namespace App\Imports;
 
-use App\Model\ModelConfirmacionesCargueUrc;
+use App\Models\ModelConfirmacionesCargueUrc;
 use Carbon\Carbon;
 use Carbon\Traits\Creator;
 use Illuminate\Support\Collection;

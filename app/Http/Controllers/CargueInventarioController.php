@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Imports\cargueInventarioImport;
 use App\Imports\ImportarProgramasImport;
-use App\Model\ImportProgramasSemanales;
+use App\Models\ImportProgramasSemanales;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;

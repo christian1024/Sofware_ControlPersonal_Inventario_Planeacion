@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\ClientesLab;
-use App\Model\LabCausalesDescarte;
-use App\Model\ModelLabTipoMedios;
-use App\Model\TipoFrascosLab;
+use App\Models\ClientesLab;
+use App\Models\LabCausalesDescarte;
+use App\Models\ModelLabTipoMedios;
+use App\Models\TipoFrascosLab;
 use Illuminate\Http\Request;
 
 class TablasMaestrasController extends Controller

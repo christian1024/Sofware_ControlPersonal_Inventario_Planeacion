@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\TiposDePiezasModel;
+use App\Models\TiposDePiezasModel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 

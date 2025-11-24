@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\Empleados;
-use App\Model\GetEtiquetasLabInventario;
+use App\Models\Empleados;
+use App\Models\GetEtiquetasLabInventario;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Auth;

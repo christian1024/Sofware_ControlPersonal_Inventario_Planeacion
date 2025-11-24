@@ -2,8 +2,8 @@
 
 namespace App\Imports;
 
-use App\Model\ProdInventarioRenewalsModel;
-use App\Model\Variedades;
+use App\Models\ProdInventarioRenewalsModel;
+use App\Models\Variedades;
 use Illuminate\Support\Facades\DB;
 use Maatwebsite\Excel\Concerns\ToModel;
 use Maatwebsite\Excel\Concerns\Importable;
@@ -21,7 +21,7 @@ class InventarioRenewalProduccionImport implements ToModel, WithHeadingRow
     /**
      * @param array $row
      *
-     * @return \App\Model\ProdInventarioRenewalsModel
+     * @return \App\Models\ProdInventarioRenewalsModel
      */
 
 

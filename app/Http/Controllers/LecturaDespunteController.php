@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\Empleados;
-use App\Model\LabCambioFaseCh;
-use App\Model\LabLecturaAjusteInv;
-use App\Model\LabLecturaEntrada;
-use App\Model\LabLecturaSalida;
-use App\Model\LecturaDespunteModel;
-use App\Model\ModelAnoSemana;
+use App\Models\Empleados;
+use App\Models\LabCambioFaseCh;
+use App\Models\LabLecturaAjusteInv;
+use App\Models\LabLecturaEntrada;
+use App\Models\LabLecturaSalida;
+use App\Models\LecturaDespunteModel;
+use App\Models\ModelAnoSemana;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;

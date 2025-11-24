@@ -2,7 +2,7 @@
 
 namespace App\Exports;
 
-use App\Model\urcProgramasSemanalasRenewallModel;
+use App\Models\urcProgramasSemanalasRenewallModel;
 use http\Client\Curl\User;
 use Illuminate\Support\Facades\DB;
 use Maatwebsite\Excel\Concerns\FromCollection;

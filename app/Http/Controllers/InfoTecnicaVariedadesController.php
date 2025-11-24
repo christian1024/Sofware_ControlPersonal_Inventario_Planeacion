@@ -2,16 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\LabInfotecicaTiposFrascos;
-use App\Model\TipoFasesLab;
-use App\Model\TipoFrascosLab;
+use App\Models\LabInfotecicaTiposFrascos;
+use App\Models\TipoFasesLab;
+use App\Models\TipoFrascosLab;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
-use App\Model\Especies;
-use App\Model\Generos;
-use App\Model\Variedades;
-use App\Model\LabInfotecnicaVariedades;
+use App\Models\Especies;
+use App\Models\Generos;
+use App\Models\Variedades;
+use App\Models\LabInfotecnicaVariedades;
 use Carbon\Carbon;
 
 class InfoTecnicaVariedadesController extends Controller

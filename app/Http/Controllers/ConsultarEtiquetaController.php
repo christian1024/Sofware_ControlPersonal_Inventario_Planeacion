@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\LabCuartos;
-use App\Model\Variedades;
+use App\Models\LabCuartos;
+use App\Models\Variedades;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Collection as Collection;

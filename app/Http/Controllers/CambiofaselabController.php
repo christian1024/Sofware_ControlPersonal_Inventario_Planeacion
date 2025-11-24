@@ -3,14 +3,14 @@
 namespace App\Http\Controllers;
 
 use App\LabCambioFases;
-use App\Model\ClientesLab;
-use App\Model\LabCambioFaseCh;
-use App\Model\LabInfotecicaTiposFrascos;
-use App\Model\LabLecturaSalida;
-use App\Model\LecturaDespunteModel;
-use App\Model\ModelAnoSemana;
-use App\Model\ModelResultadoMuestrasFitopatologia;
-use App\Model\TipoFasesLab;
+use App\Models\ClientesLab;
+use App\Models\LabCambioFaseCh;
+use App\Models\LabInfotecicaTiposFrascos;
+use App\Models\LabLecturaSalida;
+use App\Models\LecturaDespunteModel;
+use App\Models\ModelAnoSemana;
+use App\Models\ModelResultadoMuestrasFitopatologia;
+use App\Models\TipoFasesLab;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;

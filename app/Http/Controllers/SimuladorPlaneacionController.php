@@ -2,14 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\ClientesLab;
-use App\Model\GetEtiquetasLabInventario;
-use App\Model\labCabezaPedidos;
-use App\Model\labdetallesPedidos;
-use App\Model\LabInfotecnicaVariedades;
-use App\Model\ModelAnoSemana;
-use App\Model\ModelCalculoSemanasPlaneacion;
-use App\Model\Variedades;
+use App\Models\ClientesLab;
+use App\Models\GetEtiquetasLabInventario;
+use App\Models\labCabezaPedidos;
+use App\Models\labdetallesPedidos;
+use App\Models\LabInfotecnicaVariedades;
+use App\Models\ModelAnoSemana;
+use App\Models\ModelCalculoSemanasPlaneacion;
+use App\Models\Variedades;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;

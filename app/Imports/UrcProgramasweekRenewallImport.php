@@ -2,7 +2,7 @@
 
 namespace App\Imports;
 
-use App\Model\urcProgramasSemanalasRenewallModel;
+use App\Models\urcProgramasSemanalasRenewallModel;
 use Illuminate\Support\Facades\DB;
 use Maatwebsite\Excel\Concerns\Importable;
 use Maatwebsite\Excel\Concerns\ToModel;
@@ -14,7 +14,7 @@ class UrcProgramasweekRenewallImport implements ToModel, WithHeadingRow
     /**
      * @param array $row
      *
-     * @return \App\Model\urcProgramasSemanalasRenewallModel
+     * @return \App\Models\urcProgramasSemanalasRenewallModel
      */
     public function model(array $row)
     {
